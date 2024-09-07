@@ -1,7 +1,7 @@
 ```markdown
 ## **README.md Descontraído para o seu Controle de Equipamentos - Imersão Dev com Google Gemini**
 
-**Observação:** A ideia de criar estra ferramenta era uma necessidade real do meu antigo emprego no IBAMA, por isso utilizei o órgão público como um cliente fictício.
+**Observação:** A ideia de criar esta ferramenta era uma necessidade real do meu antigo emprego no IBAMA, por isso utilizei o órgão público como um cliente fictício.
 
 ###  **O que faz essa parada?**
 
