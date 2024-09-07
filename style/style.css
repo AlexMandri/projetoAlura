@@ -32,6 +32,7 @@ body {
     margin-left: 5%;
     text-align: left;
     font-size: 34px;
+    letter-spacing: 0.4rem;
 }
 
 .menu {
@@ -96,7 +97,6 @@ section {
 .pesquisa h2 {
     letter-spacing: 15px;
     padding: 10px;
-    color: #000000;
 }
 
 .pesquisa input {
@@ -170,4 +170,83 @@ footer {
 }
 footer p{
     margin-left: 5%;
+}
+
+/* =======================Responsividade=============================== */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    section input {
+        width: 20%;
+        padding: 0.8rem;
+    }
+
+    .descricao {
+        width: 40rem;
+        /* height: 30vh; */
+    }
+
+    .item-resultado h2 {
+        font-size: 0.8rem;
+        /* Tamanho da fonte dos títulos em telas menores */
+    }
+    .descricao p {
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
+    .menu a {
+        font-size: 0.7rem;
+    }
+    .btn {
+        padding: 5px 15px;
+    }
+    .pesquisa h2 {
+        letter-spacing: 5px;
+        padding: 5px;
+    }
+
+    section input {
+        height: 1rem;
+    }
+
+    .pesquisa button {
+        padding: 0.5rem 0.9rem;
+        /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.8rem;
+        width: 40%;
+    }
+
+    .descricao {
+        width: 90%;
+    }
+
+    .descricao h2 {
+        font-size: 0.6rem;
+        /* Tamanho da fonte dos títulos em telas pequenas */
+        
+    }
+    .descricao p {
+        /* margin-bottom: 1px; */
+        margin: 0.3rem 0;
+        font-size: 0.6rem;
+        /* margin-top: 1rem; */
+    }
+
+    footer {
+        font-size: 0.6rem;
+        height: 50px;
+        /* Tamanho da fonte do rodapé em telas pequenas */
+    }
 }
