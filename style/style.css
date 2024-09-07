@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: "Chakra Petch";
+    
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    position: relative;
+}
+
+.titulo {
+    flex: 30%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 40%;
+    text-align: right;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: #000000;
+}
+
+.btn {
+    background: #000000;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.btn:hover {
+    border: none;
+    background: #e25c07;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* =====================MAIN==================================== */
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #fee722;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 10px 10px;
+    height: 100%;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ============================lado esquerdo================================ */
+.pesquisa {
+    width: 30%;
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    /* border:1px solid red; */
+    margin-left: 5%;
+}
+
+.pesquisa h2 {
+    letter-spacing: 15px;
+    padding: 10px;
+    color: #000000;
+}
+
+.pesquisa input {
+    width: 60%;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pesquisa button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #000000;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+.pesquisa button:hover {
+    background-color: #e45b07;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #000000;
+}
+
+/* ================lado direito=============================== */
+.descricao {
+    display: inline-block;
+    width: 40rem;
+    height: 50vh;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+    margin-right: 5%;
+  
+}
+
+.descricao p {
+    margin-bottom: 10px;
+    margin: 0.5rem 0;
+    color: #45474B;
+}
+
+.item-resultado {
+    padding: 1rem;
+    background: #FFFFFF;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.item-resultado h2 {
+    font-size: 1rem;
+}
+
+/* ==================================roda pé========================== */
+footer {
+    display: flex;
+    bottom: 0;
+    align-items: center; 
+    background-color: white;
+    font-size: 18px;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+footer p{
+    margin-left: 5%;
+}
