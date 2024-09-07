@@ -40,22 +40,20 @@ Quer ajudar a melhorar essa aplicação? Show de bola!  Cria um fork desse repos
 ** Bora lá dar um upgrade nesse sistema! **
 
 **Observação:** Adapte esse README.md à sua realidade e adicione mais detalhes sobre a aplicação, como por exemplo, como instalar as dependências, se houver, ou como configurar o ambiente de desenvolvimento.
-**Observação:**
-**Pesquisa pode ser feita por:**
-
+**Observação:** Pesquisa pode ser feita por:
 * **Patrimônio:** 
   * 320185
-	* 320211
-	* 320191
+  * 320211
+  * 320191
   * 320190
-	* 320217
-	* 320180
-	* 320179
+  * 320217
+  * 320180
+  * 320179
   * 320221
-	* 320232
-	* 298499
-	* 298509
-	* 298498
+  * 320232
+  * 298499
+  * 298509
+  * 298498
 * **Tags:**
   * **Marcas:** Dell, Daten
   * **Tipo de equipamento:** Computador, monitor, etc
